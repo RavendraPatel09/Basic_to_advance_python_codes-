@@ -175,3 +175,6 @@ print(f"✅ Saved to: {output_path}")
 driver.quit()
 # --- CLEANUP ---
 print("🏁 Automation complete.")
+print(f"Total Students Processed: {len(final_data)}")
+print(f"Successful: {len([d for d in final_data if d['Status'] == 'Success'])}")
+print(f"Failed: {len([d for d in final_data if d['Status'] == 'Failed'])}")
