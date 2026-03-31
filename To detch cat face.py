@@ -11,11 +11,3 @@ if img is not None:
     for (x, y, w, h) in faces:
         cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
     cv2.imshow('Cat Face Detection', img)
-<<<<<<< HEAD
-    cv2.waitKey(0)
-=======
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-else:
-    print("Image not found.")
->>>>>>> 775b7034bdbbdf99f32c735c6a2ca588cb54215f

@@ -14,10 +14,5 @@ for face in faces:
     x2=x1+face[2]
     y2=y1+face[3]
     cv2.rectangle(img,(x1,y1),(x2,y2),[255,0,0],2)
-<<<<<<< HEAD
-    
-=======
-   
->>>>>>> 775b7034bdbbdf99f32c735c6a2ca588cb54215f
 cv2.imshow('image',img)
 cv2.waitKey(0)
