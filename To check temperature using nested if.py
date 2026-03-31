@@ -5,5 +5,5 @@ else:
    if temp<25:
          print("cold")
    else:
-       print("hot") 
+      print("hot") 
 
