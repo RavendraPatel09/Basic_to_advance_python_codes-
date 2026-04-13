@@ -1,6 +1,6 @@
+m = float(input("Enter total marks: "))
+n = float(input("Enter number of subjects: "))
 marks = []
-n = int(input("Enter number of subjects: "))
-
 for i in range(n):
     m = float(input(f"Enter marks for subject {i+1}: "))
     marks.append(m)
