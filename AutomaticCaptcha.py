@@ -27,5 +27,4 @@ with col2:
     if st.button("Refresh CAPTCHA"):
         refresh_captcha()
         st.rerun()
-# For debugging (remove this in a real app!)
 #to run streamlit run "Automatic captcha.py"
