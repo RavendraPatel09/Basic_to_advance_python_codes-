@@ -1,4 +1,0 @@
-#single line program of the heelo!
-"""multi-line comment used 
-in python"""
-print("Hello World!")
